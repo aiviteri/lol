@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate a Basket</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="donor.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Donate a Basket</h1>
+  </header>
+  <main>
+    <div class="search-bar">
+      <input type="text" placeholder="Search what’s needed..." oninput="filterBaskets(this.value)">
+    </div>
+    <div class="basket-list" id="donor-baskets"></div>
+    <div class="confirmation" id="confirmation"></div>
+    <div class="ai-message" id="aiMessage"></div>
+  </main>
+</body>
+</html>
